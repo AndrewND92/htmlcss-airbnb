@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #253654;
+}
+
+#contenitore {
+ position: relative;
+ text-align: center;
+}
+.pics {
+  width: 50%;
+  height: 50%;
+}
+img {
+  width: 50%;
+  height: 50%;
+
+}
