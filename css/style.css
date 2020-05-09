@@ -10,37 +10,50 @@ body {
 
 main {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 100px;
+  display: block;
 }
+
 
  img {
    width: 100%;
+   display:block;
+   opacity: 0.8;
  }
+
+
+
 
  .box1 {
    position: relative;
    width: 20%;
    margin: auto;
-   border: 1px solid white;
+   border: 2px solid rgb(194, 194, 194);
+   border-bottom: 1px;
  }
  .box2{
    position: relative;
    width: 20%;
    margin: auto;
-   border: 1px solid white;
+   border: 2px solid rgb(194, 194, 194);
+   border-bottom: 1px;
+
+
  }
  .box3 {
    position: relative;
    width: 20%;
    margin: auto;
-   border: 1px solid white;
+   border: 2px solid rgb(194, 194, 194);
  }
 
- .title {
+  .title {
    position: absolute;
    top: 50%;
    left: 50%;
    font-size: 40px;
    z-index: 10;
    transform: translate(-50%,-50%);
+   text-shadow: 2px 2px #010101;
+   color: #000000;
  }
